@@ -1,0 +1,20 @@
+export const LEAGUE_IMPORT_MESSAGES = {
+    FETCH_SUCCESS: `Fetched League data successfully.`,
+    LEAGUE_EXISTS: `League already exists on TopProp. Please request admin to invite you to the league`,
+    INVALID_ESPNS2: `Invalid espnS2. EspnS2 must be a valid string.`,
+    INVALID_SWID: `Invalid swid. Swid must be a valid string.`,
+    INVALID_SOURCE: `Invalid Source. Source must be either ESPN or YAHOO.`,
+    FETCH_FAILED_YAHOO: `Failed to fetch league information from Yahoo!`,
+    FETCH_FAILED_ESPN: `Failed to fetch league information from Espn!`,
+    IMPORT_FAILED_YAHOO: `Failed to import league from Yahoo!`,
+    IMPORT_FAILED_ESPN: `Failed to import league from Espn!`,
+    IMPORT_SUCCESS_YAHOO: `Successfully imported league from Yahoo!`,
+    IMPORT_SUCCESS_ESPN: `Successfully imported league from Espn!`,
+    LEAGUE_DOES_NOT_EXIST: `League does not exist in TopProp. Please import the league to TopProp`,
+    NOT_LEAGUE_ADMIN: `We cannot sync this league because you are not the league admin.Please request admin to initiate the sync`,
+    SYNC_FAILED_YAHOO: `Failed to sync league from Yahoo!`,
+    SYNC_FAILED_ESPN: `Failed to sync league from Espn!`,
+    SYNC_SUCCESS_YAHOO: `Successfully synced league from Yahoo!`,
+    SYNC_SUCCESS_ESPN: `Successfully synced league from Espn!`,
+    
+};

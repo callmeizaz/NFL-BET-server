@@ -1,0 +1,11 @@
+| Hi #{user.fullName},
+|
+| Your contest has been created. We'll let you know when you match with an opponent
+| Your Player : #{creatorTeam.name}
+| Opponent Player: #{claimerTeam.name}
+| Entry : #{new Intl.NumberFormat("en-US", {style: "currency",currency: "USD",minimumFractionDigits: 2,maximumFractionDigits: 2,}).format(c2d(Number(contestData.entryAmount)))}
+| Max Win : #{new Intl.NumberFormat("en-US", {style: "currency",currency: "USD",minimumFractionDigits: 2,maximumFractionDigits: 2,}).format(c2d(Number(contestData.creatorTeamMaxWin)))}
+|
+|
+| Thanks,
+| TopProp Team
